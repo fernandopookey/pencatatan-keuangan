@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/nando', function () {
     return ('<h1>Branch Nando</h1>');
 });
+
+Route::get('/galang', function () {
+    return ('<h1>Branch galang</h1>');
+});
