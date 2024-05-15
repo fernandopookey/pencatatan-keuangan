@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/nando', function () {
-    return ('<h1>Branch Nando</h1>');
+    return ('<h1>Branch</h1>');
 });
