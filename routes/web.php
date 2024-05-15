@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/nando', function () {
+    return ('<h1>Branch Nando</h1>');
+});
