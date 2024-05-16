@@ -22,5 +22,10 @@ Route::get('/nando', function () {
 });
 
 Route::get('/galang', function () {
-    return ('<h1>Branch galang</h1>');
+    return ('<h1> galang</h1>');
 });
+
+Route::get('/nambah', function () {
+    return ('<h1> nambah</h1>');
+});
+// nambah
