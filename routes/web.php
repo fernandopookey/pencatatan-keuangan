@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/ahmad', function () {
-    return ('nama saya ahmad');
+    return ('<h1>nama saya ahmad</h1>');
 });
